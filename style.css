@@ -1,0 +1,277 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h5{
+    color: #ffffff;
+}
+.body-container{
+    background-image: url('./bgg.jpeg');
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#section-1{
+    backdrop-filter: blur(5px);
+    height: 100vh;
+ }
+
+#ni .nav-link{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #ffffffdc;
+    letter-spacing: 1px;
+    padding: 3px 10px;
+    margin-right: 1rem;
+}
+#ni .nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+#brand{
+    font-size: 2rem;
+}
+#card{
+    margin-top: 6rem;
+}
+#name{
+    color: transparent;
+    -webkit-text-stroke:1px #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+}
+#name span{
+    color: #fff;
+}
+
+#description{
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    line-height: 25px;
+}
+#icon-list{
+    display: flex;
+    margin-top: 6rem;
+    justify-content: space-between;
+}
+#icon-list li{
+    
+    list-style: none;
+    margin-right: 2rem;
+    background-color: #07070721;
+    padding: 1rem;
+    border-radius: 50px;
+}
+svg{
+    font-size: 30px;
+    height: 30px;
+    fill: #fff;
+}
+#description p{
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    padding: 0 3rem;
+    margin-top: 20px;
+    color: #fff;
+}
+#explore1,#explore2{
+
+    margin: 1.5rem 1rem;
+   padding: 0.9rem 1.7rem;
+   background-color: #fff;
+   color: #090661;
+   font-size: 1.2rem;
+   border-radius: 18px;
+   border:1px solid #ffffff;
+}
+#explore2{
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+}
+#explore1:hover{
+    color: #090661;
+    background-color: #fff;
+}
+#mail{
+    fill: #fff;
+}
+#person-info{
+    margin-top: 6.8rem;
+    /* background-color: #f7f7f738; */
+    /* backdrop-filter: blur(10px); */
+    border-radius: 15px;
+    padding: 1rem 5rem;
+    line-height: 12px;
+}
+.item-1{
+    margin-top: 28px;
+    border: 1px solid #ffffff;
+    border-width: 0px 1px 0px 1px;
+    background-color: #d6d6d616;
+    padding: 1rem 1rem;
+    color: #fff;
+    border-radius: 15px 0px 15px 0px;
+}
+#person-info p{
+    font-size: 0.9rem;
+    font-weight: 100;
+   
+}
+#person-info p1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* #btnbtn{
+    fill: #090661;
+} */
+#skills-ex{
+    /* display: block; */
+}
+#section-2{
+    /* height: 100%; */
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background-color: #1414143a;
+}
+#skill-set{
+    background-color: transparent;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2rem;
+}
+#skill-set h3{
+    margin-top: 40px;
+    font-size: 1.8rem;
+    text-align: left;
+    color: #fff;
+    padding: 1rem 0rem 0rem 0rem;
+}
+#skill-set #decription1{
+    text-align: left;
+    width: 18rem;
+    padding:5px 10px;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+    border-left: 1px solid #fff;
+    color: #c6c6c6c7;
+}
+#s-e{
+    font-size: 3.7rem;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: left;
+}
+#skill-set a{
+    font-size: 0.8rem;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    /* color: #090661; */
+    line-height: 2rem;
+    background-color: #dedddd24;
+    /* background-color: #fff; */
+    border-radius: 10px;
+    padding: 5px;
+    width: 4rem;
+    height: 4rem;
+    margin: 5px 10px;
+}
+#list{
+    display: flex;
+}
+#list #i1{
+   font-size: 1.5rem;
+}
+.dis{
+    font-size: 0.8rem;
+    text-align: left;
+    color: #c6c6c6;
+    line-height: 0px;
+    width: 50rem;
+    padding: 1.5rem 0rem 0rem 0rem;
+}
+.lan-list li{
+    text-align: left;
+    font-size: 0.8rem;
+    list-style: none;
+    color: #ffffffad;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+
+@media(max-width:1028px){
+    #card{
+        /* margin: 100px 50px; */
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+    #card #name{
+        font-size: 3rem;
+        margin-top: -3rem;
+    }
+    #person-info p{
+        font-size: 0.5rem;
+        padding: 0;
+
+    }
+    #person-info{
+        display: none;
+        margin-top: 0;
+        padding:0;
+    }
+    #offcanvasNavbar{
+        padding: 10px;
+        background-color: #ffffff;
+        width: 15rem;
+        color: #090661;
+        border-radius: 15px 0px 0px 0px;
+    }
+
+    #offcanvasNavbarLabel{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #ni .nav-link{
+        text-align: left;
+        color: #090661;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    /*-------------------*/
+    #section-2{
+        /* height: 100%; */
+    }
+    #skills{
+        display: block;
+        text-align: center;
+    }
+    #icon-list{
+       display: none;
+    }
+   #s-e{
+        position: relative;
+        font-size: 3rem;
+    }
+    #skill-set h3{
+        font-size: 1.3rem;
+        margin: 0.5rem;
+    }
+    #list #i1{
+        font-size: rem;
+    }
+    #skill-set a{
+        font-size: 0.8rem;
+    }
+
+}
+
+/*---------------skill set --------------*/
